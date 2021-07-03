@@ -1,11 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DotNetBookstore.Core.Entities;
+using DotNetBookstore.Infrastructure.Data;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DotNetBookstore.Infrastructure.Data;
-using DotNetBookstore.Core.Entities;
 
 namespace DotNetBookstore.API.Controllers
 {

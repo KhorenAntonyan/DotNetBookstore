@@ -33,6 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DotNetBookstore.Infrastructure\DotNetBookstore.Infrastructure.csproj" />
     <ProjectReference Include="..\Infrastructure\DotNetBookstore.Infrastructure.csproj" />
   </ItemGroup>
 
