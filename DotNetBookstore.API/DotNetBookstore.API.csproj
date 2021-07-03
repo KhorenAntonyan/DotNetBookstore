@@ -33,8 +33,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DotNetBookstore.Core\DotNetBookstore.Core.csproj" />
     <ProjectReference Include="..\DotNetBookstore.Infrastructure\DotNetBookstore.Infrastructure.csproj" />
-    <ProjectReference Include="..\Infrastructure\DotNetBookstore.Infrastructure.csproj" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

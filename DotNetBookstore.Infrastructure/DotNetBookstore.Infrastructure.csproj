@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core\DotNetBookstore.Core.csproj" />
+    <ProjectReference Include="..\DotNetBookstore.Core\DotNetBookstore.Core.csproj" />
   </ItemGroup>
 
 </Project>
